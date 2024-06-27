@@ -7,7 +7,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Forms</title>
 </head>
+
 <body>
+  <form action="" method="post">
+    <div>
+      <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" placeholder="Emma Bostian">
+    </div>
+
+    <div>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="bostian@gmail.com">
+    </div>
+
+    <div>
+      <label for="phone-number">Phone Number</label>
+      <input type="tel" id="phone-number" placeholder="0813-1234-5678">
+    </div>
+
+    <div>
+      <label for="date">Date</label>
+      <input type="date" id="date">
+    </div>
+
+    <div>
+      <label for="guest">Number of Guests</label>
+      <select name="guest" id="guest">
+        <option value="" disabled selected>Choose guest</option>
+        <option value="opt1">2</option>
+        <option value="opt2">4</option>
+        <option value="opt3">6</option>
+        <option value="opt4">8</option>
+      </select>
+    </div>
+
+    <!--
+    <div>
+      <input type="submit" name="submit" id="submit">
+    </div>
+    why don't they use this?
+    -->
+
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
 </body>
 
 </html>
